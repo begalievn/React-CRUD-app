@@ -71,7 +71,7 @@
 }
 
 .buttons-container {
-  width: 110px;
+  width: 120px;
 
   margin-left: 10px;
   display: flex;
@@ -79,10 +79,30 @@
 }
 
 .buttons-container button {
-  width: 50px;
+  width: 55px;
   height: 25px;
 }
 
 .delete-btn {
   color: red;
+}
+
+.form-container {
+  width: 600px;
+  height: 210px;
+  background-color: aquamarine;
+  margin-left: 40px;
+}
+
+form > * {
+  display: block;
+  font-size: 18px;
+}
+
+input {
+  width: 550px;
+}
+
+.form-submit-button {
+  width: 120px;
 }
